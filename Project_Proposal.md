@@ -1,4 +1,4 @@
-#### Determining the Edibility of Wild Plants
+# Determining the Edibility of Wild Plants
 Emily Ubbelode
 
 ### Need: 

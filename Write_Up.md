@@ -1,4 +1,4 @@
-# Classifying Mushrooms as Edible or Poisonous using Deep Learning
+# Identifying Edible and Poisonous Mushrooms using Deep Learning
 Emily Ubbelohde
 
 ## Abstract
@@ -22,14 +22,14 @@ The data I gathered was scraped from Mushroom World using both Selenium and Beau
 **Models**
 -------
 
-A simple sequential NN was used to originally get a precision of XX. From there I iterated through many training methods, adding more layers, more filters, and more kernels. Precision and Accuracy did not improve from any of those methods. I then tried transfer learning with various optimizers. Changing the optimizer to SGD gave me the best results with a precision of XX only misclassifying XX poisonous mushrooms as edible.
+A simple sequential NN was used to originally get a precision of 62%. From there I iterated through many training methods, adding more layers, more filters, and more kernels. Precision and Accuracy did not improve from any of those methods. I then tried transfer learning with various optimizers. Changing the optimizer to SGD gave me the best results with a precision of 91.9% only misclassifying 8 poisonous mushrooms as edible.
 
 
 ***Best Model***
 ------- 
 
    - The best model was using VGG16 with a transfer learning, and SGD as the optimizer.
-   - This gave precision of XX
+   - This gave precision of 91.9%
    
 
    
@@ -39,7 +39,7 @@ A simple sequential NN was used to originally get a precision of XX. From there 
 - MatplotLib and Seaborn for visualizing
 
 ## Summary
-- The model produced could be improved. The has a total precision of XX. In order to bring an app to market the precision needs to be as close to 100% as possible. This model will need further tuning, and additional data prior to bringing an app to market. 
+- The model produced could be improved. The has a total precision of 91.9%. In order to bring an app to market the precision needs to be as close to 100% as possible. This model will need further tuning, and additional data prior to bringing an app to market. 
 
 ## Communication
 Slides and visuals presented 

@@ -1,4 +1,4 @@
-# Using Neural Networks to Identify Edibility of Mushrooms
+# Using Neural Networks to Determine Edibility of Mushrooms
 
 This project was based on the growing popularity of foraging. Data was scraped directly from Mushroom World using Selenium and Beautiful Soup. Images and edibility status of 170+ types of mushrooms was gathered with a total of 905 images gathered. Images were resized and split into two sets for both training and validation. 
 

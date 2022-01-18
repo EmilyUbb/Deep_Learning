@@ -18,7 +18,7 @@ The data I gathered was scraped from Mushroom World using both Selenium and Beau
 **Models**
 -------
 
-A simple sequential NN was used to originally get a precision of 62%. From there I iterated through many training methods, adding more layers, more filters, and more kernels. In addition I worked with transfer learning and various optimizers. After iterating through many models I determined the best one from those options was a Sequential Neural Network with a total of 16 layers.
+A simple sequential NN was used to originally get a precision of 62%. From there I iterated through many training methods, adding more layers, more filters, and more kernels. In addition I worked with transfer learning, mobile net, and various optimizers. After iterating through many models I determined the best one from those options was a Sequential Neural Network with a total of 16 layers.
 
 
 ***Best Model***

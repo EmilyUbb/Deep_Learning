@@ -9,7 +9,7 @@ My next steps to add onto this project would be to build an app that identifies 
 I created a fictional company, Foragers on Fleek, for communication as well as creating a business use case.
 
 ## Design
-This project was inspired by the growing popularity of foraging in the United States. That knowledge combined with the likelihood of food scarcity becoming worse with climate change has given Foraging on Fleek a mission of getting more people into foraging. Foraging on Fleek wants to encourage millennials and gen z to get out and forage for the first time. One of the biggest barriers of entering foraging is the certainty of the edibility of each specimen. By building an app that can with great certainty determine if a mushroom is edible or not, it can remove one of the biggest barriers of entry.
+This project was inspired by the growing popularity of foraging in the United States. That knowledge combined with the likelihood of food scarcity becoming worse with climate change has given Foraging on Fleek a mission of getting more people into foraging. Foraging on Fleek wants to encourage Millennials and Gen Z to get out and forage for the first time. One of the biggest barriers of entering foraging is the certainty of the edibility of each specimen. By building an app that can with great certainty determine if a mushroom is edible or not, it can remove one of the biggest barriers of entry.
 
 ## Data
 The data I gathered was scraped from Mushroom World using both Selenium and Beautiful Soup. A total of 905 images were scraped. After scraping images were split into a training/validation set of 668 images, and 237 training images. All images were then sorted into edible and inedible classes. 
